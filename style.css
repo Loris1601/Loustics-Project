@@ -1,0 +1,26 @@
+html {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.portraits_images {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    overflow: hidden;
+}
